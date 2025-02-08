@@ -1,0 +1,75 @@
+{
+	"workflowApiVersion": "1.0",
+	"metaData": {
+		"version": "1.0",
+		"icon": "",
+		"iconSmall": ""
+	},
+	"type": "REST",
+	"outcomes": [],
+	"lang": {
+		"en-US": {
+			"name": "Rewards",
+			"description": "Processes Fuel Rewards requests"
+		}
+	},
+	"userInterfaces": {
+		"runningModal": {
+			"url": ""
+		},
+		"runningHover": {
+			"url": ""
+		},
+		"configModal": {
+			"height": 600,
+			"width": 800,
+			"fullscreen": false,
+			"url": "https://mc8bngdnyxrlpd7f3cnly19fsbx4.pub.sfmc-content.com/3hhonjmfts2"
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [],
+			"outArguments": [],
+			"url": "https://mc8bngdnyxrlpd7f3cnly19fsbx4.pub.sfmc-content.com/oznv3ojwrpu?action=execute",
+			"verb": "POST",
+			"body": "",
+			"header": "",
+			"format": "json",
+			"useJwt": false,
+			"timeout": 10000
+		}
+	},
+	"configurationArguments": {
+		"applicationExtensionKey": "extension-key-created-in-app-center",
+		"defaults": {
+			"name": "value"
+		},
+		"save": {
+			"url": "https://mc8bngdnyxrlpd7f3cnly19fsbx4.pub.sfmc-content.com/oznv3ojwrpu?action=save",
+			"body": "",
+			"verb": "POST",
+			"useJwt": false
+		},
+		"publish": {
+			"url": "https://mc8bngdnyxrlpd7f3cnly19fsbx4.pub.sfmc-content.com/oznv3ojwrpu?action=publish",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		},
+		"validate": {
+			"url": "https://mc8bngdnyxrlpd7f3cnly19fsbx4.pub.sfmc-content.com/oznv3ojwrpu?action=validate",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		}
+	},
+	"schema": {
+	        "arguments": {
+	            "execute": {
+	                "inArguments": [],
+	                "outArguments": []
+	            }
+	        }
+    }
+}
