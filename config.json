@@ -9,7 +9,7 @@
 	"outcomes": [],
 	"lang": {
 		"en-US": {
-			"name": "Rewards",
+			"name": "Fuel Rewards",
 			"description": "Processes Fuel Rewards requests"
 		}
 	},
@@ -27,6 +27,24 @@
 			"url": "https://mc8bngdnyxrlpd7f3cnly19fsbx4.pub.sfmc-content.com/3hhonjmfts2"
 		}
 	},
+	"outcomes": [
+	     {
+        "arguments": {
+          "branchResult": "update_success"
+        },
+        "metaData": {
+          "label": "Update Success""
+        }
+      },
+      {
+        "arguments": {
+          "branchResult": "update_failure"
+        },
+        "metaData": {
+          "label" : "Updated "
+        }
+      }
+	],
 	"arguments": {
 		"execute": {
 			"inArguments": [],
