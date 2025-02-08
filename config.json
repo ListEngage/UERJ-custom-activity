@@ -32,7 +32,7 @@
           "branchResult": "update_success"
         },
         "metaData": {
-          "label": "Update Success"
+          "label": "Success"
         }
       },
       {
@@ -40,7 +40,7 @@
           "branchResult": "update_failure"
         },
         "metaData": {
-          "label" : "Updated "
+          "label" : "Failure"
         }
       }
 	],
@@ -54,7 +54,10 @@
 			"header": "",
 			"format": "json",
 			"useJwt": false,
-			"timeout": 10000
+			"timeout": 10000,
+      "retryCount": 3,
+      "retryDelay": 1000,
+      "concurrentRequests": 10
 		}
 	},
 	"configurationArguments": {
