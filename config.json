@@ -5,7 +5,7 @@
 		"icon": "",
 		"iconSmall": ""
 	},
-	"type": "REST",
+	"type": "RESTDECISION",
 	"outcomes": [],
 	"lang": {
 		"en-US": {
