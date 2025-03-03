@@ -2,8 +2,8 @@
 	"workflowApiVersion": "1.0",
 	"metaData": {
 		"version": "1.0",
-		"icon": "",
-		"iconSmall": ""
+		"icon": "https://res.cloudinary.com/dz5gh5h6e/image/upload/v1740962207/pdi_custom_activity_icon_mv9n2y.png",
+		"iconSmall": "https://res.cloudinary.com/dz5gh5h6e/image/upload/v1740962207/pdi_custom_activity_icon_mv9n2y.png"
 	},
 	"type": "RESTDECISION",
 	"lang": {
