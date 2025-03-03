@@ -8,8 +8,8 @@
 	"type": "RESTDECISION",
 	"lang": {
 		"en-US": {
-			"name": "Fuel Rewards",
-			"description": "Processes Fuel Rewards requests"
+			"name": "PDI Fuel Rewards",
+			"description": "Updates Fuel Rewards member attributes"
 		}
 	},
 	"userInterfaces": {
