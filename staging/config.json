@@ -1,0 +1,95 @@
+{
+	"workflowApiVersion": "1.0",
+	"metaData": {
+		"version": "1.0",
+		"icon": "https://res.cloudinary.com/dz5gh5h6e/image/upload/v1740962207/pdi_custom_activity_icon_mv9n2y.png",
+		"iconSmall": "https://res.cloudinary.com/dz5gh5h6e/image/upload/v1740962207/pdi_custom_activity_icon_mv9n2y.png"
+	},
+	"type": "RESTDECISION",
+	"lang": {
+		"en-US": {
+			"name": "PDI Fuel Rewards",
+			"description": "Updates Fuel Rewards member attributes"
+		}
+	},
+	"userInterfaces": {
+		"runningModal": {
+			"url": ""
+		},
+		"runningHover": {
+			"url": ""
+		},
+		"configModal": {
+			"height": 800,
+			"width": 800,
+			"fullscreen": false,
+			"url": "https://mc9cddk5r40zdd9wxk9x0s2s7k0m.pub.sfmc-content.com/0egcn2z3l3l"
+		}
+	},
+	"outcomes": [
+	     {
+        "arguments": {
+          "branchResult": "update_success"
+        },
+        "metaData": {
+          "label": "Success"
+        }
+      },
+      {
+        "arguments": {
+          "branchResult": "update_failure"
+        },
+        "metaData": {
+          "label" : "Failure"
+        }
+      }
+	],
+	"arguments": {
+		"execute": {
+			"inArguments": [],
+			"outArguments": [],
+			"url": "https://mc9cddk5r40zdd9wxk9x0s2s7k0m.pub.sfmc-content.com/xdviwk2cp1r?action=execute",
+			"verb": "POST",
+			"body": "",
+			"header": "",
+			"format": "json",
+			"useJwt": false,
+			"timeout": 10000,
+      "retryCount": 3,
+      "retryDelay": 1000,
+      "concurrentRequests": 10
+		}
+	},
+	"configurationArguments": {
+		"applicationExtensionKey": "extension-key-created-in-app-center",
+		"defaults": {
+			"name": "value"
+		},
+		"save": {
+			"url": "https://mc9cddk5r40zdd9wxk9x0s2s7k0m.pub.sfmc-content.com/xdviwk2cp1r?action=save",
+			"body": "",
+			"verb": "POST",
+			"useJwt": false
+		},
+		"publish": {
+			"url": "https://mc9cddk5r40zdd9wxk9x0s2s7k0m.pub.sfmc-content.com/xdviwk2cp1r?action=publish",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		},
+		"validate": {
+			"url": "https://mc9cddk5r40zdd9wxk9x0s2s7k0m.pub.sfmc-content.com/xdviwk2cp1r?action=validate",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		}
+	},
+	"schema": {
+	        "arguments": {
+	            "execute": {
+	                "inArguments": [],
+	                "outArguments": []
+	            }
+	        }
+    }
+}
