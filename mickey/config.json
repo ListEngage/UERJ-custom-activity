@@ -1,0 +1,77 @@
+{
+	"workflowApiVersion": "1.0",
+	"metaData": {
+		"version": "1.0",
+		"icon": "https://jbactivity-cf2cd.web.app/images/logo.png",
+		"iconSmall": "https://jbactivity-cf2cd.web.app/images/logo.png"
+	},
+	"type": "REST",
+	"lang": {
+		"en-US": {
+			"name": "WDW Demo",
+			"description": "WDW Demo"
+		}
+	},
+	"userInterfaces": {
+		"runningModal": {
+			"url": ""
+		},
+		"runningHover": {
+			"url": ""
+		},
+		"configModal": {
+			"height": 800,
+			"width": 800,
+			"fullscreen": false,
+			"url": "http://cloud.mail.1to1.tech/mum1csvmk1n"
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [],
+			"outArguments": [],
+			"url": "http://cloud.mail.1to1.tech/iy5yxqw4ezz?action=execute",
+			"verb": "POST",
+			"body": "",
+			"header": "",
+			"format": "json",
+			"useJwt": false,
+			"timeout": 10000,
+      "retryCount": 3,
+      "retryDelay": 1000,
+      "concurrentRequests": 10
+		}
+	},
+	"configurationArguments": {
+		"applicationExtensionKey": "extension-key-created-in-app-center",
+		"defaults": {
+			"name": "value"
+		},
+		"save": {
+			"url": "http://cloud.mail.1to1.tech/iy5yxqw4ezz?action=save",
+			"body": "",
+			"verb": "POST",
+			"useJwt": false
+		},
+		"publish": {
+			"url": "http://cloud.mail.1to1.tech/iy5yxqw4ezz?action=publish",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		},
+		"validate": {
+			"url": "http://cloud.mail.1to1.tech/iy5yxqw4ezz?action=validate",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+		}
+	},
+	"schema": {
+	        "arguments": {
+	            "execute": {
+	                "inArguments": [],
+	                "outArguments": []
+	            }
+	        }
+    }
+}
