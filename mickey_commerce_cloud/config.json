@@ -52,12 +52,12 @@
 			"verb": "POST",
 			"body": "",
 			"header": "",
-			"format": "json",
+			
 			"useJwt": true,
 			"timeout": 10000,
-      "retryCount": 3,
-      "retryDelay": 1000,
-      "concurrentRequests": 10
+      		"retryCount": 3,
+      		"retryDelay": 1000,
+      		"concurrentRequests": 10
 		}
 	},
 	"configurationArguments": {
@@ -91,5 +91,9 @@
 	                "outArguments": []
 	            }
 	        }
-    }
+    },
+	"copySettings": {
+	    "allowCopy": true,
+	    "ignoreArguments": ["eventDefinitionKey"]
+	  }
 }
