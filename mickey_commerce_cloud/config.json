@@ -48,7 +48,7 @@
 		"execute": {
 			"inArguments": [],
 			"outArguments": [],
-			"url": "https://mc8bngdnyxrlpd7f3cnly19fsbx4.pub.sfmc-content.com/eg4xmbtntpb?action=execute",
+			"url": "https://0c2745b81a58.ngrok-free.app/log_request.php",
 			"verb": "POST",
 			"useJwt": true,
 			"timeout": 10000,
