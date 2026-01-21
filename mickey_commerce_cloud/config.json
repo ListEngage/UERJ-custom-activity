@@ -5,7 +5,7 @@
 		"icon": "https://res.cloudinary.com/dz5gh5h6e/image/upload/v1740962207/pdi_custom_activity_icon_mv9n2y.png",
 		"iconSmall": "https://res.cloudinary.com/dz5gh5h6e/image/upload/v1740962207/pdi_custom_activity_icon_mv9n2y.png"
 	},
-	"type": "RESTDECISION",
+	"type": "REST",
 	"lang": {
 		"en-US": {
 			"name": "Commerce Cloud Update",
@@ -61,7 +61,6 @@
 		}
 	},
 	"configurationArguments": {
-		"applicationExtensionKey": "extension-key-created-in-app-center",
 		"defaults": {
 			"name": "value"
 		},
