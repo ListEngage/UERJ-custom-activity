@@ -50,9 +50,6 @@
 			"outArguments": [],
 			"url": "https://mc8bngdnyxrlpd7f3cnly19fsbx4.pub.sfmc-content.com/eg4xmbtntpb?action=execute",
 			"verb": "POST",
-			"body": "",
-			"header": "",
-			
 			"useJwt": true,
 			"timeout": 10000,
       		"retryCount": 3,
